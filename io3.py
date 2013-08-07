@@ -12,7 +12,7 @@ flux = []
 # 讀入資料
 with open(filename,'r') as f:
     while True:
-        line = f.readline().strip()
+        line = f.readline()
         if line:
             col1, col2 = line.split() # 注意：split()回傳字串而不是數值
             wavelength.append(float(col1))

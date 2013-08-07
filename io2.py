@@ -5,7 +5,7 @@ filename="data.dat"
 
 with open(filename,'r') as f:
     while True:
-        line = f.readline().strip()
+        line = f.readline()
         if line:
             #print line.split()
             wavelength, flux = line.split()
