@@ -26,3 +26,7 @@ print "flux1", flux1
 print "wavelength2", wavelength2
 print "flux2", flux2
 
+plt.plot(wavelength1, flux1)
+plt.plot(wavelength2, flux2)
+plt.show()
+
